@@ -1,0 +1,141 @@
+/* Header */
+header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height:80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+  margin: 2rem auto;
+  width: 100%;
+  margin-top: 0rem;
+}
+
+.logo_img{
+  height: 75px;
+  align-items: center;
+  margin-bottom: 2px;
+  margin-bottom: auto;
+}
+
+
+.cf:before, .cf:after{
+    content:"";
+    display:inline-table;
+}
+
+.cf:after{
+  clear: both;
+}
+
+.search-wrapper {
+width: 250px;
+margin-right: 20px;
+}
+
+.search-wrapper input {
+width: 150px;
+height: 40px;
+padding-left: 5px;
+padding-right: 5px;
+float: left;
+font-style: normal 16px 'Calibri';
+background-color: #FDC9D9;
+border-radius: 5px 0 0 5px;
+border:0px;
+}
+
+.search-wrapper input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+   text-decoration: #999;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.search-wrapper button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0px;
+padding: 0px;
+cursor:pointer;
+height: 40px;
+width: 80px;
+font-style: bold "Calibri";
+color: white;
+text-transform: uppercase;
+background-color: #D83C3C;
+border-radius: 3px;
+}
+
+
+.logo ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav_menu a ul li{
+  height: 30px;
+  line-height: 50px;
+  display: block;
+}
+.logo ul li{
+  float: left;
+  text-decoration: none;
+}
+.logo ul li a{
+  display: block;
+  width: 100%;
+  color: blue;
+}
+
+#hcontent, #hcontent2, #hcontent3{
+  display: none;
+}
+
+.menu_icon{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  float: left;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+label{
+  margin-left: -10000px
+}
+
+@media only screen and (max-width: 750px) {
+
+  .nav_menu{
+    display: none;
+    background: #FFFFFC;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 50px;
+    left: 0;
+    transition: 0.5s;
+   }
+
+   .nav_menu ul li{
+     display: block;
+     text-align: center;
+     border: 1px solid gray;
+     padding: 15px 30px;
+     margin-bottom: 10px
+
+   }

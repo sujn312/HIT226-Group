@@ -1,0 +1,76 @@
+/* footer */
+.footer{
+  position: absolute;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #201644;
+  margin: 0 0 60px;
+
+}
+/*.footer{
+  text-align: center;
+}*/
+.footer .footer-desc p{
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+.footer .footer-desc a{
+  text-decoration: none;
+  color: #FFFFFC;
+}
+
+.footer .footer-desc a:hover{
+  text-decoration: underline;
+  color: #42858C;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4663884903b0f57b1c409be921abee8b0aa34d65
+  .footer{
+    width: 100%;
+    text-align: center;
+  }
+  .footer .footer-desc{
+    font-size: 10px;
+    padding: 1.5rem;
+    text-align: right;
+  }
+}
+
+/* .nav_menu{
+  display: none;
+  background: #FFFFFC;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  top: 50px;
+  left: 0;
+  transition: 0.5s;
+ }
+
+ .nav_menu ul li{
+   display: block;
+   text-align: center;
+   border: 1px solid gray;
+   padding: 15px 30px;
+   margin-bottom: 10px
+
+ }
+  .cdu_logo{
+  width: 50%;
+  left: 110px;
+  margin-bottom: 20px;
+}
+
+  h1{
+  margin-top: 50px;
+}
+  body{
+  padding: 7px;
+} */
